@@ -264,7 +264,7 @@ def solve_and_plot_surface(n=50):
     ax.set_zlabel("u(x,y)")
     ax.set_title("Poisson-Lösung für n = 50")
 
-    plt.show()
+    # plt.show()
 
     print()
     print("Interpretation Teil b:")
@@ -350,7 +350,7 @@ def compare_methods():
     plt.title("Rechenzeit vs. Anzahl der Unbekannten")
     plt.legend()
     plt.grid(True)
-    plt.show()
+    # plt.show()
 
     # ------------------------
     # Plot 2: Iterationen
@@ -363,7 +363,7 @@ def compare_methods():
     plt.title("Iterationen vs. Anzahl der Unbekannten")
     plt.legend()
     plt.grid(True)
-    plt.show()
+    # plt.show()
 
     # ------------------------
     # Plot 3: Zeit pro Iteration
@@ -376,7 +376,7 @@ def compare_methods():
     plt.title("Zeit pro Iteration vs. Anzahl der Unbekannten")
     plt.legend()
     plt.grid(True)
-    plt.show()
+    # plt.show()
 
 
 # ============================================================
@@ -442,6 +442,7 @@ if __name__ == "__main__":
 
     # Theorie-Zusammenfassung
     print_theory_summary()
+    plt.show()
 
     # Teil d) Bonus
     # Achtung: Kann länger dauern.
